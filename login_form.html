@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <title>login</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Nixie+One&display=swap" rel="stylesheet">
+
+        <script type="text/javascript">
+
+            function check(){
+                var Username=document.getElementById("login-username").value;
+                var password=document.getElementById("login-password").value;
+                if (Username=="Abhi"&&password=="Abhi@123"){
+                    document.getElementById("login-form1").action='home.html';
+                }
+                else{
+                    document.getElementById("error").innerHTML="username or password is Invalid."
+                    return false;
+                }
+            }
+        </script>
+
+        </head>
+    <body>
+       <div class="top-header">
+            <div style="float: left;margin-left: 2px;">abhilashtellabiyyam@gmail.com</div>
+            <div style="float: right;margin-right: 2px;">instagram : abhi_10_45</div>
+       </div>
+       <div class="header" style="width: 100%;">
+            <div style="float:left;width: 3%;padding-left: 2px;" >
+                    <img src="logo.jpg" height="40" weight="40"/>
+            </div>
+            <div style="width: 50%;float: left; color: blue;padding-left: 5px;padding-top: 10px;margin-left: 2px;">
+                Courses Here
+            </div>
+            <div class ="login" style="text-align: center;">
+                <a href="#" class="login-button" style="padding-top: 14px;">LOGIN</a> 
+            </div>
+       </div>
+       <div class="menubar">
+            <a id="menubar_content" href="#"><b>Home</b></a>
+            <a id="menubar_content" href="#aboutus"><b>About</b></a>
+            <a id="menubar_content" href="#courses_available"><b>Courses</b></a>
+            <a id="menubar_success_milestones" href="#success_milestones"><b>Success Milestones</b></a>
+       </div>
+       
+       <div class="login-form">
+            <br><br>
+            <h1>Login From</h1> <br><br><br>
+            <form id="login-form1" onsubmit="return check()">
+                Username:
+                <input type="text" id="login-username" name="uname"><br><br>
+                Password:
+                <input type="text" id="login-password" name="pwd"><br><br>
+                <input id="login-submit" type="submit" value="Login"><br><br>
+            </form>
+            <div id="error" style="text-align: center;color: red;">
+            </div><br><br><br>
+
+       </div>
+
+       <div class="footer">
+            <div class="footer_yt_links">
+                <h1>Youtube Links</h1>
+                <br>
+                <br>
+                <a href="#">Python</a><br>
+                <a href="#">JAVA</a><br>
+                <a href="#">Django</a><br>
+                <a href="#">RestApi</a><br>
+                <a href="#">Mysql</a><br>
+                <a href="#">HTML</a><br>
+                <a href="#">CSS</a><br>
+                <a href="#">JavaScript</a><br><br>
+            </div>
+            <div class="footer_sm_links">
+                <h1>social media links</h1>
+                <br>
+                <br>
+                <a href="#">Instagram</a><br>
+                <a href="#">Facebook</a><br>
+                <a href="#">WhatsApp</a><br>
+                <a href="#">Snapchat</a><br>
+            </div>
+            <div class="footer_input">
+                <h1>Submit your Requests Here</h1>
+                <br>
+                <form action="">
+                <h3>Email:</h3>
+                <input type="email"><br>
+                <h3>Request:</h3>
+                <textarea cols="50" rows="8"></textarea><br>
+                <input id="footer-submit-button" type="submit" value="Submit">
+                </form>
+
+            </div>
+       </div>
+    </body>
+</html>

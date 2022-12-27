@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nixie One', cursive;
+    font-weight: bold;
+}
+
+.top-header{
+    height: 20px;
+    background-color:gray;
+    font-size: 12px;
+    color: white;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    font-size: 25px;
+    margin: 0px auto auto;
+    padding-top: 15px;
+}
+
+.login{
+    width: 10%;
+    float:right;
+    background-color: green;
+    margin-right: 100px;
+    border-radius: 30px;
+    height: 20px;
+    text-align: center;
+    padding: 15px;
+}
+
+
+.login a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+.login:hover{
+    background-color: red;
+}
+
+.menubar{
+    min-height: 30px;
+    background-color: lightgray;
+    text-align: center;
+    width: 100%;
+}
+
+#menubar_content{
+    width: 12%;
+    min-height: 22px;
+    float: left;
+    padding-top: 3px;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-top: 7px;
+}
+
+#menubar_content:hover{
+    background-color: red;
+    color: yellow;
+}
+#menubar_success_milestones{
+    width: 12%;
+    min-height: 22px;
+    float: left;
+    padding-top: 3px;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-top: 7px;
+    padding-left: 15px;
+}
+#menubar_success_milestones:hover{
+    background-color: red;
+    color: yellow;
+}
+
+#body_title{
+    text-align: center;
+    font-size: 30px;
+    color: red;
+}
+
+.body{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.body_courses{
+    width: 80%;
+    height: 700px;
+    margin: 0px auto auto;
+}
+
+.each-course{
+    width: 20%;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 3px 6px rgb(218, 110, 110);
+    float: left;
+    margin: 3% 2%;
+}
+
+.each-course img{
+    border-radius: 10px;
+    width: 100%;
+    height: 150px;
+}
+
+.each-course a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    padding: 20px;
+}
+
+.each-course button{
+    padding: 6px;
+    width: 100px;
+    text-align: center;
+    min-height: 30px;
+    max-height: 30px;
+    margin-left: 50px;
+    background-color: plum;
+    border-radius: 10px;
+}
+
+.each-course button:hover{
+    background-color: rgb(174, 62, 62);
+    color: rgb(255, 237, 42);
+}
+
+.about{
+    text-align: center;
+    margin: 0px auto auto;
+}
+
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 300px;
+    margin: 0px auto auto;
+}
+
+.footer .footer_yt_links{
+    width: 25%;
+    float: left;
+    margin: 1% 1%;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.footer .footer_yt_links h1{
+    font-size: 20px;
+    color: yellow;
+}
+
+.footer .footer_yt_links a{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer .footer_sm_links{
+    width: 25%;
+    float: left;
+    margin: 1% 1%;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.footer .footer_sm_links h1{
+    font-size: 20px;
+    color: yellow;
+}
+
+.footer .footer_sm_links a{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer .footer_input{
+    width: 40%;
+    margin: 1% 1%;
+    float: left;
+}
+
+.footer .footer_input h1{
+    font-size: 20px;
+    color: yellow;
+}
+.footer .footer_input h3{
+    font-size: 15px;
+    color: yellow;
+}
+
+.footer .footer_input #footer-submit-button{
+    margin-top: 5px;
+    width: 100px;
+    height: 20px;
+    background-color: gray;
+    color: black;
+}
+
+.footer .footer_input #footer-submit-button:hover{
+    background-color: green;
+    color: goldenrod;
+}
+
+.login-form{
+    text-align: center;
+    color: brown;
+}
+.login-form form{
+        width: 300px;
+        min-height:200px ;
+        margin-left: 40%;
+        color: black;
+}
+.login-form #login-submit{
+    width: 100px;
+    max-height: 30px;
+    background-color: aquamarine;
+    color: black;
+    border-radius: 5px;
+}
